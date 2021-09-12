@@ -1,0 +1,107 @@
+
+Model Attention_RNN:
+
+Epoch 1/5
+2021-07-09 10:48:44.243435: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublas64_11.dll
+2021-07-09 10:48:44.562953: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublasLt64_11.dll
+315/315 [==============================] - 758s 2s/step - loss: 0.9466 - accuracy: 0.5156 - val_loss: 0.8204 - val_accuracy: 0.6149
+Epoch 2/5
+315/315 [==============================] - 663s 2s/step - loss: 0.8529 - accuracy: 0.5900 - val_loss: 0.8025 - val_accuracy: 0.6238
+Epoch 3/5
+315/315 [==============================] - 692s 2s/step - loss: 0.8202 - accuracy: 0.6099 - val_loss: 0.7841 - val_accuracy: 0.6451
+Epoch 4/5
+315/315 [==============================] - 661s 2s/step - loss: 0.8068 - accuracy: 0.6148 - val_loss: 0.7711 - val_accuracy: 0.6543
+Epoch 5/5
+315/315 [==============================] - 698s 2s/step - loss: 0.7915 - accuracy: 0.6301 - val_loss: 0.7977 - val_accuracy: 0.6330
+384/384 - 99s - loss: 1.632 - accuracy: 0.5323
+Accuracy for model Attention_RNN is 0.53230496335246974
+
+Model CNN1D_Multi_Filters:
+
+Epoch 1/5
+315/315 [==============================] - 56s 76ms/step - loss: 0.9976 - accuracy: 0.5091 - val_loss: 0.8482 - val_accuracy: 0.5987
+Epoch 2/5
+315/315 [==============================] - 23s 73ms/step - loss: 0.8221 - accuracy: 0.6146 - val_loss: 0.8320 - val_accuracy: 0.6030
+Epoch 3/5
+315/315 [==============================] - 23s 74ms/step - loss: 0.7783 - accuracy: 0.6369 - val_loss: 0.8171 - val_accuracy: 0.6183
+Epoch 4/5
+315/315 [==============================] - 23s 74ms/step - loss: 0.7391 - accuracy: 0.6651 - val_loss: 0.8107 - val_accuracy: 0.6248
+Epoch 5/5
+315/315 [==============================] - 23s 75ms/step - loss: 0.7055 - accuracy: 0.6858 - val_loss: 0.8142 - val_accuracy: 0.6340
+384/384 - 4s - loss: 1.7858 - accuracy: 0.5075
+Accuracy for model CNN1D_Multi_Filters is 0.50750429373486723
+
+Model CNN1D:
+
+Epoch 1/5
+315/315 [==============================] - 68s 149ms/step - loss: 1.0135 - accuracy: 0.4371 - val_loss: 0.9079 - val_accuracy: 0.5579
+Epoch 2/5
+315/315 [==============================] - 43s 136ms/step - loss: 0.8668 - accuracy: 0.5900 - val_loss: 0.8505 - val_accuracy: 0.6265
+Epoch 3/5
+315/315 [==============================] - 43s 135ms/step - loss: 0.8186 - accuracy: 0.6290 - val_loss: 0.8415 - val_accuracy: 0.6459
+Epoch 4/5
+315/315 [==============================] - 43s 135ms/step - loss: 0.7918 - accuracy: 0.6481 - val_loss: 0.8336 - val_accuracy: 0.6410
+Epoch 5/5
+315/315 [==============================] - 43s 135ms/step - loss: 0.7623 - accuracy: 0.6683 - val_loss: 0.8261 - val_accuracy: 0.6460
+384/384 - 7s - loss: 1.5573 - accuracy: 0.4833
+Accuracy for model CNN1D is 0.48331162333488464
+
+Model LSTM:
+
+Epoch 1/5
+315/315 [==============================] - 198s 562ms/step - loss: 1.0298 - accuracy: 0.4333 - val_loss: 1.0239 - val_accuracy: 0.4425
+Epoch 2/5
+315/315 [==============================] - 196s 624ms/step - loss: 1.0181 - accuracy: 0.4483 - val_loss: 1.0317 - val_accuracy: 0.4419
+Epoch 3/5
+315/315 [==============================] - 206s 653ms/step - loss: 1.0186 - accuracy: 0.4457 - val_loss: 1.0227 - val_accuracy: 0.4419
+Epoch 4/5
+315/315 [==============================] - 258s 821ms/step - loss: 1.0152 - accuracy: 0.4493 - val_loss: 1.0220 - val_accuracy: 0.4419
+Epoch 5/5
+315/315 [==============================] - 211s 670ms/step - loss: 1.0167 - accuracy: 0.4494 - val_loss: 1.0221 - val_accuracy: 0.4419
+384/384 - 26s - loss: 1.1706 - accuracy: 0.4618
+Accuracy for model LSTM is 0.46181162546489254
+
+Model Bi-LSTM:
+
+Epoch 1/5
+315/315 [==============================] - 278s 835ms/step - loss: 0.9375 - accuracy: 0.5249 - val_loss: 0.8099 - val_accuracy: 0.6200
+Epoch 2/5
+315/315 [==============================] - 299s 950ms/step - loss: 0.7776 - accuracy: 0.6385 - val_loss: 0.7796 - val_accuracy: 0.6452
+Epoch 3/5
+315/315 [==============================] - 296s 938ms/step - loss: 0.7373 - accuracy: 0.6623 - val_loss: 0.7645 - val_accuracy: 0.6603
+Epoch 4/5
+315/315 [==============================] - 291s 923ms/step - loss: 0.6867 - accuracy: 0.6924 - val_loss: 0.7928 - val_accuracy: 0.6594
+Epoch 5/5
+315/315 [==============================] - 291s 924ms/step - loss: 0.6349 - accuracy: 0.7231 - val_loss: 0.8072 - val_accuracy: 0.6508
+384/384 - 36s - loss: 2.2963 - accuracy: 0.4989
+Accuracy for model Bi-LSTM is 0.4989860031604767
+
+Model CNN1D_LSTM:
+
+Epoch 1/5
+315/315 [==============================] - 77s 194ms/step - loss: 1.0255 - accuracy: 0.4428 - val_loss: 1.0230 - val_accuracy: 0.4419
+Epoch 2/5
+315/315 [==============================] - 61s 195ms/step - loss: 1.0195 - accuracy: 0.4412 - val_loss: 1.0225 - val_accuracy: 0.4419
+Epoch 3/5
+315/315 [==============================] - 61s 195ms/step - loss: 1.0155 - accuracy: 0.4487 - val_loss: 1.0220 - val_accuracy: 0.4419
+Epoch 4/5
+315/315 [==============================] - 62s 196ms/step - loss: 1.0155 - accuracy: 0.4502 - val_loss: 1.0232 - val_accuracy: 0.4419
+Epoch 5/5
+315/315 [==============================] - 61s 194ms/step - loss: 1.0127 - accuracy: 0.4541 - val_loss: 1.0220 - val_accuracy: 0.4419
+384/384 - 10s - loss: 1.1652 - accuracy: 0.4821
+Accuracy for model CNN1D_LSTM is 0.48211162333488464
+
+Model Creative_CNN1D:
+
+Epoch 1/5
+315/315 [==============================] - 92s 270ms/step - loss: 2.2960 - accuracy: 0.4998 - val_loss: 0.9263 - val_accuracy: 0.6021
+Epoch 2/5
+315/315 [==============================] - 86s 273ms/step - loss: 0.7526 - accuracy: 0.6738 - val_loss: 1.0388 - val_accuracy: 0.6045
+Epoch 3/5
+315/315 [==============================] - 89s 282ms/step - loss: 0.6253 - accuracy: 0.7466 - val_loss: 1.2501 - val_accuracy: 0.5951
+Epoch 4/5
+315/315 [==============================] - 89s 282ms/step - loss: 0.5276 - accuracy: 0.7981 - val_loss: 1.5008 - val_accuracy: 0.5903
+Epoch 5/5
+315/315 [==============================] - 89s 282ms/step - loss: 0.4528 - accuracy: 0.8386 - val_loss: 1.7976 - val_accuracy: 0.5931
+384/384 - 10s - loss: 2.0420 - accuracy: 0.5021
+Accuracy for model Creative_CNN1D is 0.502185346912521

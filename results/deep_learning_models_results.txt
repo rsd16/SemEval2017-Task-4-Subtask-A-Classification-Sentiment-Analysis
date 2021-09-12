@@ -1,0 +1,7 @@
+Attention_RNN 	 53.23
+CNN1D_Multi_Filters 	 50.75
+CNN1D 	 48.33
+LSTM 	 46.18
+Bi-LSTM 	 49.89
+CNN1D_LSTM 	 48.21
+Creative_CNN1D 	 50.21

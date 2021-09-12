@@ -1,0 +1,10 @@
+2017 test: 12284
+
+2016 test: 20632
+
+train (aggregation of all the files): 29702
+
+therefore:
+
+train: 50334
+test: 12284
